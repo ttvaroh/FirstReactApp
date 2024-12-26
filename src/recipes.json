@@ -1,0 +1,57 @@
+[
+      {
+        "id": "1",
+        "title": "Scholar Bowls",
+        "type": [
+          "Breakfast",
+          "Lunch",
+          "Dinner"
+        ],
+        "rating": "3.9/5",
+        "description": "Healthy and clean meal to make for the week. This makes meal prep easy, healthy, and rewarding!",
+        "preptime": "15",
+        "cooktime": "35",
+        "ingredients": [
+            "1 lb Brussels minced",
+            "2 Bell Peppers minced",
+            "1 lb broccoli minced",
+            "1 cauliflower minced",
+            "3 sweet potatoes minced",
+            "1 cup quinoa",
+            "1 tbsp olive oil"
+        ],
+        "servings": "5",
+        "directions": [
+            "Combine the vegetables in one bowl and put on any seasonings of choice",
+            "Put the potatoes in the oven for 35 minutes at 400",
+            "Put the veggies in a seperate container in the oven for 20 minutes at 400",
+            "Combine the veggies, potatoes, and quinoa and enjoy!"
+        ]
+      },
+      {
+        "id": "2",
+        "type": [
+          "Breakfast",
+          "Dessert"
+        ],
+        "rating": "4.1/5",
+        "title": "Nowaks' Crepes",
+        "description": "This family recipe makes the tastiest crepes! Its the perfect mix of sweetness while allowing for a savory crepe of any kind.",
+        "preptime": "15",
+        "cooktime": "10",
+        "ingredients": [
+            "2 eggs",
+            "1.5 cups of flour",
+            "1 cup of milk",
+            "1.5 tbsp of sugar",
+            "tsp rum",
+            "tsp vanilla extract",
+            "tbsp lemon juice"
+        ],
+        "servings": "8",
+        "directions": [
+            "Mix it to a consistency of a creamy soup, using water if necessary. Feel free to eyeball and adjust to your tastes",
+            "Cook like pancakes, on a pan and flipping"
+        ]
+      }
+    ]

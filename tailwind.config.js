@@ -1,0 +1,56 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {
+      fontFamily: {
+        sans: ['Roboto', 'sans-serif']
+      },
+      gridTemplateColumns: {
+        '70/30': '70% 28%',
+      },
+      colors: {
+        'il-orange' : '#FF5F05',
+        'il-altgeld' : '#C84113',
+        'il-altgeld-darker-1' : '#983220',
+        'il-blue' : '#13294B',
+        'il-blue-lighter-1' : '#3A4461',
+        'il-blue-lighter-2' : '#677592',
+        'il-blue-lighter-3' : '#929FB5',
+        'il-blue-lighter-4' : '#BFC9D9',
+        'il-blue-darker-1' : '#000033',
+        'il-blue-darker-2' : '#0E0F20',
+        'il-storm' : '#707372',
+        'il-storm-lighter-1' : '#8D8F8E',
+        'il-storm-lighter-2' : '#A9ABAA',
+        'il-storm-lighter-3' : '#C6C7C7',
+        'il-storm-lighter-4' : '#F4F4F4',
+        'il-storm-darker-1' : '#4A4C4B',
+        'il-storm-darker-2' : '#252525',
+        'il-industrial' : '#1D58A7',
+        'il-industrial-lighter-1' : '#526FB3',
+        'il-industrial-lighter-2' : '#759BD1',
+        'il-industrial-lighter-3' : '#90AED5',
+        'il-industrial-lighter-4' : '#CAD9EF',
+        'il-industrial-darker-1' : '#2F568C',
+        'il-industrial-darker-2' : '#1F3D7B',
+        'il-arches' : '#009FD4',
+        'il-arches-lighter-1' : '#3CB4E5',
+        'il-arches-lighter-2' : '#7FC3E1',
+        'il-arches-lighter-3' : '#A6D7EB',
+        'il-arches-lighter-4' : '#D2EBF5',
+        'il-arches-darker-1' : '#00779F',
+        'il-arches-darker-2' : '#005677',
+        'il-harvest' : '#FCB316',
+        'il-prairie' : '#006230',
+        'il-patina' : '#007E8E',
+        'il-berry' : '#5C0E41',
+        'il-earth' : '#7D3E13',
+      },
+    },
+  },
+  plugins: [],
+}
