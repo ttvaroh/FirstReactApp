@@ -1,6 +1,6 @@
+import { Link } from 'react-router'
 import { useState } from 'react'
 import { FaMapMarker } from 'react-icons/fa'
-import {   } from 'react-router'
 
 const RecipeListing = ({ recipe }) => {
     const [showFullDescription, setShowFullDescription] = useState(false);
@@ -42,12 +42,12 @@ const RecipeListing = ({ recipe }) => {
                         <FaMapMarker className='inline text-lg mb-1 mr-1' />
                         Rating: {recipe.rating}
                     </div>
-                    <a
-                    href={`/my-recipes/${recipe.id}`}
+                    <Link
+                    to={`/recipes/${recipe.id}`}
                     className='h-[36px] bg-il-orange text-white rounded-lg px-4 py-2 hover:bg-il-blue text-center text-sm'
                     >
                     Open Recipe
-                    </a>
+                    </Link>
                 </div>
             </div>
         </div>

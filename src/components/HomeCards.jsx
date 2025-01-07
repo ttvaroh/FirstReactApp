@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router'
 import Card from './Card'
 
 const HomeCards = () => {
@@ -11,24 +12,24 @@ const HomeCards = () => {
                 <p className='mt-2 mb-4 font-semibold text-il-blue'>
                     Find exactly what you're craving
                 </p>
-                <a
-                href='/my-recipes'
+                <Link
+                to='/recipes'
                 className='inline-block bg-il-orange text-white rounded-lg px-4 py-2 hover:bg-il-blue'
                 >
                     Browse All Recipes
-                </a>
+                </Link>
             </Card>
             <Card>
                 <h2 className='text-2xl font-extrabold text-il-blue'>For The Promising Ones</h2>
                 <p className='mt-2 mb-4 font-semibold text-il-blue'>
                     All recipes deserve a home
                 </p>
-                <a
-                href='/add-recipe'
+                <Link
+                to='/new-recipe'
                 className='inline-block bg-il-orange text-white rounded-lg px-4 py-2 hover:bg-il-blue'
                 >
                     Add Recipe
-                </a>
+                </Link>
             </Card>
         </div>
       </div>

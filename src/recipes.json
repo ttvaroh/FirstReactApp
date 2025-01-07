@@ -1,4 +1,5 @@
-[
+{
+  "recipes": [
       {
         "id": "1",
         "title": "Scholar Bowls",
@@ -21,7 +22,7 @@
             "1 tbsp olive oil"
         ],
         "servings": "5",
-        "directions": [
+        "instructions": [
             "Combine the vegetables in one bowl and put on any seasonings of choice",
             "Put the potatoes in the oven for 35 minutes at 400",
             "Put the veggies in a seperate container in the oven for 20 minutes at 400",
@@ -49,9 +50,10 @@
             "tbsp lemon juice"
         ],
         "servings": "8",
-        "directions": [
+        "instructions": [
             "Mix it to a consistency of a creamy soup, using water if necessary. Feel free to eyeball and adjust to your tastes",
             "Cook like pancakes, on a pan and flipping"
         ]
       }
     ]
+  }
