@@ -26,7 +26,7 @@ const Navbar = () => {
             <div className='md:ml-auto '>
               <div className='flex justify-normal space-x-4 text-3xl'>
                 <Link
-                to='/my-recipes'
+                to='/recipes'
                 className='text-white il-blue-lighter-4 hover:text-il-blue-lighter-3 px-3 py-2'
                 >
                   My Recipes

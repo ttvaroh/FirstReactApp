@@ -10,6 +10,7 @@ import MainLayout from './layouts/MainLayout';
 import MyRecipesPage from './pages/MyRecipesPage';
 import NotFoundPage from './pages/NotFoundPage';
 import RecipePage, { recipeLoader } from './pages/RecipePage'
+import NewRecipePage from './pages/NewRecipePage'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -17,6 +18,7 @@ const router = createBrowserRouter(
       <Route index element={<HomePage />} />
       <Route path='/recipes' element={<MyRecipesPage />} />
       <Route path='/recipes/:id' element={<RecipePage />} loader={recipeLoader} />
+      <Route path='/new-recipe' element={<NewRecipePage />} />
       <Route path='*' element={<NotFoundPage />} />
     </Route>
   )

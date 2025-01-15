@@ -48,7 +48,7 @@ function RecipePage() {
         <div className='container m-auto py-6 px-6'>
           <Link
             to='/recipes'
-            className='text-indigo-500 hover:text-indigo-600 flex items-center'
+            className='text-blue-700 hover:text-blue-900 flex items-center'
           >
             <FaArrowLeft className='mr-2' /> Back to Recipes
           </Link>
@@ -79,8 +79,8 @@ function RecipePage() {
 
                 <div className='text-il-industrial text-lg font-bold mb-2'>
                     <h3>
-                        Servings:
-                        <span className='text-black text-base font-normal mb-4'> {recipe.servings}</span>
+                        Yield:
+                        <span className='text-black text-base font-normal mb-4'> {recipe.servings} Servings</span>
                     </h3>
                     <h3>
                         Prep Time:
@@ -102,10 +102,11 @@ function RecipePage() {
                     <p key={ingredient}>
                         <input 
                         type='checkbox'
+                        className='w-5 h-4'
                         checked={checkedIngredients[ingredient]}
                         onChange={() => handleCheckboxChange(ingredient)}
                         />
-                        <label> {ingredient}</label>
+                        <label className='ml-2'>{ingredient}</label>
                     </p>
                 ))}
 
@@ -137,10 +138,10 @@ function RecipePage() {
                   {recipe.cooktime} minutes
                 </p>
 
-                <h3 className='text-xl'>Servings</h3>
+                <h3 className='text-xl'>Yield</h3>
 
                 <p className='my-2 bg-il-arches-lighter-3 p-2 font-bold rounded-sm'>
-                  {recipe.servings}
+                  {recipe.servings} servings
                 </p>
               </div>
 
@@ -148,7 +149,7 @@ function RecipePage() {
                 <h3 className='text-xl font-bold mb-6'>Manage Recipe</h3>
                 <Link
                   to={`/edit-recipe/${recipe.id}`}
-                  className='bg-il-blue hover:bg-il-blue-darker-1 text-white text-center font-bold py-2 px-4 rounded-full w-full focus:outline-none focus:shadow-outline mt-4 block'
+                  className='bg-il-industrial hover:bg-il-industrial-darker-2 text-white text-center font-bold py-2 px-4 rounded-full w-full focus:outline-none focus:shadow-outline mt-4 block'
                 >
                   Edit recipe
                 </Link>

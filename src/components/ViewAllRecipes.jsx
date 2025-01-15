@@ -1,14 +1,15 @@
 import React from 'react'
+import { Link } from 'react-router'
 
 function ViewAllRecipes() {
   return (
     <section className='m-auto max-w-lg my-10 px-6'>
-      <a
-        href='/my-recipes'
+      <Link
+        to='recipes'
         className='block bg-black text-white text-center py-4 px-6 rounded-xl hover:bg-il-blue'
       >
-        View All Jobs
-      </a>
+        View All Recipes
+      </Link>
     </section>
   )
 }

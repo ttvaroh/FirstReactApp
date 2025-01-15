@@ -27,7 +27,9 @@
             "Put the potatoes in the oven for 35 minutes at 400",
             "Put the veggies in a seperate container in the oven for 20 minutes at 400",
             "Combine the veggies, potatoes, and quinoa and enjoy!"
-        ]
+        ],
+        "caloriesPerServing": "315",
+        "protein": "13"
       },
       {
         "id": "2",
@@ -53,7 +55,9 @@
         "instructions": [
             "Mix it to a consistency of a creamy soup, using water if necessary. Feel free to eyeball and adjust to your tastes",
             "Cook like pancakes, on a pan and flipping"
-        ]
+        ],
+        "caloriesPerServing": "130",
+        "protein": "5.8"
       }
     ]
   }
